@@ -25,6 +25,12 @@ dependencies = [
     "typer>=0.16",
 ]
 
+[project.optional-dependencies]
+dev = [
+    "pre-commit>=3.7",
+    "ruff>=0.4",
+]
+
 [project.scripts]
 docker-volume-migrate = "docker_volume_migrator.cli:main"
 

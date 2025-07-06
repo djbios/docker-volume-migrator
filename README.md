@@ -2,6 +2,7 @@
 
 > Interactive command-line tool to copy Docker **named volumes** between two remote hosts over SSH – no local Docker daemon required.
 
+❗️It's mostly vibecoded, since I needed it quick, but I am actively using it now 😅
 ## Features
 
 * 📦 **Stream-based transfer** – data is piped directly between hosts, never written to disk
@@ -71,6 +72,7 @@ cd docker-volume-migrator
 uv venv  # or python -m venv .venv
 source .venv/bin/activate
 uv pip install -e .[dev]
+pre-commit install
 ```
 
 ## License
