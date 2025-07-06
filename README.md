@@ -35,7 +35,7 @@ pip install git+https://github.com/djbios/docker-volume-migrator.git
 ## Usage
 
 ```bash
-docker-volume-migrate run
+docker-volume-migrate
 ```
 
 The wizard will:
