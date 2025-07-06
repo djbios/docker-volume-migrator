@@ -1,0 +1,77 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+*.egg-info/
+.eggs/
+wheelhouse/
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Poetry / PDM / uv
+poetry.lock
+uv.lock
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Type checker caches
+.mypy_cache/
+.pytype/
+.dmypy.json
+.pyre/
+
+# Translations
+*.mo
+*.pot
+
+# Logs
+*.log
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# IDE directories
+.idea/
+.vscode/
+*.sublime*
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Docker artifacts
+*.tar
+
+# Misc
+*.swp
+*.bak
