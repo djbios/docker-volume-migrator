@@ -11,6 +11,12 @@
 * 🐳 **Minimal deps** – only needs Docker & `ssh` on your machine; the rest happens remotely
 * 🪄 **One command** – install & run in seconds
 
+## TL;DR
+
+```bash
+pip install uv
+uvx --from docker-volume-migrator docker-volume-migrate
+```
 
 ## TODO (PRs welcome)
 * Direct host to host transfer with ssh keys transfer
